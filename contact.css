@@ -1,0 +1,263 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+@media screen and (max-height: 900px) {
+  html{overflow-x: hidden;}
+}
+.ff{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+/* nav starts */
+
+/* image logo */
+.imglogo{
+    width: 8rem;
+    height:7rem;
+    position: relative;
+  }
+
+
+/* To resize the imglogo*/
+.mvbut{
+    position:relative;
+    left: 50rem;
+    margin-top: -0.9rem;
+}
+@media screen and (max-width: 900px) {
+  .mvbut{
+    position:relative;
+    left: 15rem;
+  }
+}
+
+
+/* The sidebar menu */
+.sidebar {
+    height: 100%; /* 100% Full-height */
+    width: 0; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Stay on top */
+    top: 0;
+    left:0;
+    background-color: #111; /* Black*/
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 60px; /* Place content 60px from the top */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidebar */
+  }
+  
+  /* The sidebar links */
+  .sidebar a {
+    padding: 0px 8px 0px 32px;
+    text-decoration: none;
+    font-size: 19px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+    text-transform: capitalize;
+  }
+
+  /* When you mouse over the navigation links, change their color */
+  .sidebar a:hover {
+    color: #f1f1f1;
+  }
+  
+  /* Position and style the close button (top right corner) */
+  .sidebar .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+    padding-right: 2rem;
+  }
+  
+  /* The button used to open the sidebar */
+  .openbtn {
+    font-size: 20px;
+    cursor: pointer;
+    background-color:transparent;
+    color: chocolate;
+    padding: 10px 15px;
+    border: none;
+    position:relative;
+    bottom: 1rem;
+  }
+  
+  .openbtn:hover {
+    background-color: rgb(116, 75, 21);
+  }
+  
+  /* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+  #main {
+    transition: margin-left .5s; /* If you want a transition effect */
+    padding: 20px;
+  }
+  
+  /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+  @media screen and (max-height: 450px) {
+    .sidebar {padding-top: 15px;}
+    .sidebar a {font-size: 18px;}
+  }
+
+/* nav ends */
+
+/* hero_section */
+.bgimg{
+    background-image: url(./img/cofftrowel.png);
+    background: linear-gradient (rgba(12, 12, 12, 0.8), rgba(12, 12, 12, 0.8)),   url(./img/cofftrowel.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width:100rem; /* just to be sure it expands to the edge*/
+    height:60vh;
+}
+
+.hero{
+  position: relative; top:8.4rem; position:relative; left:18rem; font-size:3rem;
+}
+
+@media screen and (max-width: 900px) {
+  .hero{
+    position:relative; 
+    left:3rem;
+    font-size:2rem;
+    top:10rem;
+  }
+
+  .bordbh{
+    border-bottom: 4px solid  rgb(211, 147, 62);
+    max-width:17.7rem! important;
+    position:relative;
+    left:10rem! important;
+  }
+}
+
+.bordbh{
+  border-bottom: 4px solid  rgb(211, 147, 62);
+  max-width:33.2rem;
+  position:relative;
+  left:34.1rem;
+}
+/* hero_section ends */
+
+
+/* .contact_info */
+.onhver:hover{
+  cursor: pointer;
+  text-decoration: underline! important;
+  color: rgb(115, 72, 16)! important;
+}
+/* .contact_info ends */
+
+/* input */
+.pstml{
+  position: relative;
+  left:14rem;
+}
+@media screen and (max-height: 900px) {
+  .pstml{ 
+    position: relative; 
+    left:0rem;
+  }
+}
+
+.outlc{
+  outline-color: rgb(211, 147, 62);
+}
+
+.outl{
+  border-color: #beb6b6;
+  padding: 0 14rem 0 0;
+  height:30vh;
+}
+
+.sub{
+  background-color: rgb(211, 147, 62);
+  width:29rem;
+}
+@media screen and (max-width: 900px) {
+  .sub{
+    width:26rem;
+  }
+  .outl{
+    padding: 0 11.8rem 0 0;
+  }
+}
+.sub:hover{
+  background-color: rgb(211, 147, 62);
+} 
+
+
+/* input ends */
+
+/* scroll to top */
+#mybtn{
+    position: fixed;
+    bottom: 20px;
+    right: 0;
+    width:50px;
+    height:50px;
+    border-radius: 50px;
+    cursor: pointer;
+    padding: 15px;
+    background-color: whitesmoke;
+    border:  rgb(213, 207, 207);
+    opacity:0.9;        
+    transition: 2s ease;
+    z-index: 99;
+    display: none;
+    margin-right:3rem;
+  }
+#mybtn:hover{
+    background-color: #4d4046;
+    transition: 2s ease;
+  }
+.fa-angle-double-up{
+    color: rgb(181, 124, 50);
+    position:relative;
+    bottom:0.1rem;
+    font-size:1.3rem;
+}
+
+/* end of scroll to top */
+
+/* footer */
+footer{
+  background-color:rgb(56, 32, 1);
+  position: relative;
+  top:20rem;
+}
+.pdin{
+  padding:4rem 0;
+}
+.devb{
+  position:relative;
+  left:3rem; 
+}
+@media screen and (max-height: 900px) {
+  .devb{ 
+    position:relative;
+    left:2rem; 
+  }
+}
+
+/* social links */
+.hverf:hover{
+  color:rgb(51, 51, 244)! important;
+}
+.hvert:hover{
+  color:deepskyblue! important;
+  
+}
+.hveri:hover{
+  color:blueviolet! important;
+}
+.hverw:hover{
+  background-color: rgb(13, 96, 13)! important;
+}
+/* social links ends */
+
+/* footer ends */

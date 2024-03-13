@@ -1,0 +1,274 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+@media screen and (max-height: 900px) {
+  html{overflow-x: hidden;}
+}
+
+/* nav starts */
+
+/* image logo */
+.imglogo{
+    width: 8rem;
+    height:7rem;
+    position: relative;
+  }
+
+
+/* To resize the imglogo*/
+.mvbut{
+    position:relative;
+    left: 50rem;
+    margin-top: -0.9rem;
+}
+
+
+/* The sidebar menu */
+.sidebar {
+    height: 100%; /* 100% Full-height */
+    width: 0; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Stay on top */
+    top: 0;
+    left:0;
+    background-color: #111; /* Black*/
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 60px; /* Place content 60px from the top */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidebar */
+  }
+  
+  /* The sidebar links */
+  .sidebar a {
+    padding: 0px 8px 0px 32px;
+    text-decoration: none;
+    font-size: 19px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+    text-transform: capitalize;
+  }
+
+  /* When you mouse over the navigation links, change their color */
+  .sidebar a:hover {
+    color: #f1f1f1;
+  }
+  
+  /* Position and style the close button (top right corner) */
+  .sidebar .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+    padding-right: 2rem;
+  }
+  
+  /* The button used to open the sidebar */
+  .openbtn {
+    font-size: 20px;
+    cursor: pointer;
+    background-color:transparent;
+    color: chocolate;
+    padding: 10px 15px;
+    border: none;
+    position:relative;
+    bottom: 1rem;
+  }
+  
+  .openbtn:hover {
+    background-color: rgb(116, 75, 21);
+  }
+  
+  /* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+  #main {
+    transition: margin-left .5s; /* If you want a transition effect */
+    padding: 20px;
+  }
+  
+  /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+  @media screen and (max-height: 450px) {
+    .sidebar {padding-top: 15px;}
+    .sidebar a {font-size: 18px;}
+  }
+
+/* nav ends */
+
+
+/* hero_section */
+.tty{
+  transform: translateY(-90%)! important;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-style: oblique;
+  letter-spacing:5px;
+  font-size:3rem;
+  line-height: 4rem;
+  position:relative;
+  left:5rem;
+}
+.bordbh{
+  border-bottom: 4px solid  rgb(211, 147, 62);
+  max-width:33.2rem;
+  position:relative;
+  left:34.1rem;
+}
+/* hero_section ends */
+
+/* grow with love */
+.mvup{
+  position: relative;
+  top:-6rem;
+}
+.ff{
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.grwh{
+  color: rgb(116, 75, 21);
+}
+.grwp{
+  color:rgb(151, 138, 125);
+  max-width:25rem;
+  line-height: 1.8rem;
+  font-weight: 600;
+}
+.bordb{
+  border-bottom: 4px solid rgb(181, 124, 50);
+  max-width:6rem;
+}
+.abtu{
+  background-color: rgb(211, 147, 62);
+}
+.abtu:hover{
+  cursor: pointer;
+  background-color: rgb(211, 147, 62);
+}
+.imgmv{
+  position: relative;
+  top:5rem;
+}
+/* grow with love ends */
+
+
+/* we`ve been working */
+.mvdwn{
+  position:relative;
+  top:7.5rem;
+}
+/* we`ve been working ends */
+
+/* redefining */
+.bgim{
+  background-image: url(./img/greenleaves.png); 
+  background:linear-gradient (rgba(43, 15, 153, 0.8), rgba(51, 193, 53, 0.8)),    url(./img/greenleaves.png); 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; 
+  width:100rem;
+  height:650px;
+}
+
+.bgcl{
+  background-color:#f8f6f4;
+  padding:50px 10%;
+  transform: translateY(-6%);
+  position:relative;
+  left:5rem;
+}
+ul{
+  list-style-type: none;
+}
+.mvfl{
+  position:relative;
+  left: -2rem;
+}
+.mvll{
+  position:relative;
+  left:1rem;
+}
+.mvdd{
+  position:relative;
+  top:8rem;
+}
+/* redefinig */
+
+/* our productsimage */
+.sbgim{
+  background-image: url(./img/coffeeprd.jpg); 
+  background:linear-gradient(rgba(9, 9, 9, 0.8), rgba(32, 34, 32, 0.8)),   url(./img/coffeeprd.jpg); 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; 
+  width:100rem;
+  height:530px;
+
+}
+.mtla{
+  position:relative;
+  top: 15rem;
+  right:-35rem;
+}
+/* our product ends */
+
+
+
+/* scroll to top */
+#mybtn{
+    position: fixed;
+    bottom: 20px;
+    right: 0;
+    width:50px;
+    height:50px;
+    border-radius: 50px;
+    cursor: pointer;
+    padding: 15px;
+    background-color: whitesmoke;
+    border:  rgb(213, 207, 207);
+    opacity:0.9;        
+    transition: 2s ease;
+    z-index: 99;
+    display: none;
+    margin-right:18px;
+    }
+#mybtn:hover{
+    background-color: #4d4046;
+    transition: 2s ease;
+    }
+.fa-angle-double-up{
+    color: rgb(181, 124, 50);
+    position:relative;
+    bottom:0.1rem;
+    font-size:1.3rem;
+    }
+
+/* end of scroll to top */
+
+/* footer */
+footer{
+  background-color:rgb(56, 32, 1);
+}
+.pdin{
+  padding:4rem 0;
+}
+.devb{
+  position:relative;
+  left:3rem; 
+}
+
+/* social links */
+.hverf:hover{
+  color:rgb(51, 51, 244)! important;
+}
+.hvert:hover{
+  color:deepskyblue! important;
+  
+}
+.hveri:hover{
+  color:blueviolet! important;
+}
+.hverw:hover{
+  background-color: rgb(13, 96, 13)! important;
+}
+/* social links ends */
+
+/* footer ends */

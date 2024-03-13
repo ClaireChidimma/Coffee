@@ -1,0 +1,244 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+@media screen and (max-height: 900px) {
+  html{overflow-x: hidden;}
+}
+.ff{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+/* nav starts */
+
+/* image logo */
+.imglogo{
+    width: 8rem;
+    height:7rem;
+    position: relative;
+  }
+
+
+/* To resize the imglogo*/
+.mvbut{
+    position:relative;
+    left: 50rem;
+    margin-top: -0.9rem;
+}
+
+
+/* The sidebar menu */
+.sidebar {
+    height: 100%; /* 100% Full-height */
+    width: 0; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Stay on top */
+    top: 0;
+    left:0;
+    background-color: #111; /* Black*/
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 60px; /* Place content 60px from the top */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidebar */
+  }
+  
+  /* The sidebar links */
+  .sidebar a {
+    padding: 0px 8px 0px 32px;
+    text-decoration: none;
+    font-size: 19px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+    text-transform: capitalize;
+  }
+
+  /* When you mouse over the navigation links, change their color */
+  .sidebar a:hover {
+    color: #f1f1f1;
+  }
+  
+  /* Position and style the close button (top right corner) */
+  .sidebar .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+    padding-right: 2rem;
+  }
+  
+  /* The button used to open the sidebar */
+  .openbtn {
+    font-size: 20px;
+    cursor: pointer;
+    background-color:transparent;
+    color: chocolate;
+    padding: 10px 15px;
+    border: none;
+    position:relative;
+    bottom: 1rem;
+  }
+  
+  .openbtn:hover {
+    background-color: rgb(116, 75, 21);
+  }
+  
+  /* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+  #main {
+    transition: margin-left .5s; /* If you want a transition effect */
+    padding: 20px;
+  }
+  
+  /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+  @media screen and (max-height: 450px) {
+    .sidebar {padding-top: 15px;}
+    .sidebar a {font-size: 18px;}
+  }
+
+/* nav ends */
+
+/* hero_section */
+.bgclr{
+  background-color: rgb(56, 32, 1);
+  padding:7rem 0;
+}
+.lynhyt{
+  line-height: 4rem;
+  letter-spacing: 3px;
+  font-size: 4rem;
+  font-weight: 600;
+}
+/* hero_section ends */
+
+/* article */
+.grwp{
+    color:rgb(151, 138, 125);
+}
+.btnbg{
+    position:relative;
+    left:-4rem;
+    bottom:2rem;
+    color:rgb(56, 32, 1);
+    background-color: rgb(211, 147, 62);
+  }
+.btnbg:hover{
+    cursor: pointer;
+    background-color: rgb(211, 147, 62);
+    outline-color: none! important;
+}
+.btnanc{
+      position: relative;
+      left:4rem;
+      top:2rem;
+} 
+/* article ends */
+
+/* sociial links */
+.hverg:hover{
+  color:rgb(166, 19, 19)! important;
+}
+.hverp:hover{
+  color:red! important;
+}
+/* sociial links ends */
+
+/* news_section */
+.mvup{
+ position:relative;
+ top: -3.7rem;
+}
+.disblk{
+  display:none;
+}
+.newshv:hover .disblk{
+  display:block;
+}
+.bordr{
+  border-right: 1px solid gray;
+  position:relative;
+  right:10rem;
+}
+.bordr2{
+  border-right: 1px solid gray;
+  position:relative;
+  left:-1px;
+}
+.bckcl{
+  background-color:rgb(194, 134, 60);
+  max-width: 148px;
+  position:relative;
+  left:12px;
+}
+.bckcl:hover{
+  background-color: white;
+}
+.image:hover{
+  opacity: 0.5;
+  transition: 3s ease-out;
+}
+/* news_section ends */
+
+
+/* scroll to top */
+#mybtn{
+    position: fixed;
+    bottom: 20px;
+    right: 0;
+    width:50px;
+    height:50px;
+    border-radius: 50px;
+    cursor: pointer;
+    padding: 15px;
+    background-color: whitesmoke;
+    border:  rgb(213, 207, 207);
+    opacity:0.9;        
+    transition: 2s ease;
+    z-index: 99;
+    display: none;
+    margin-right:18px;
+    }
+#mybtn:hover{
+    background-color: #4d4046;
+    transition: 2s ease;
+    }
+.fa-angle-double-up{
+    color: rgb(181, 124, 50);
+    position:relative;
+    bottom:0.1rem;
+    font-size:1.3rem;
+    }
+
+/* end of scroll to top */
+
+/* footer */
+footer{
+  background-color:rgb(56, 32, 1);
+  position: relative;
+  top:5rem;
+}
+.pdin{
+  padding:4rem 0;
+}
+.devb{
+  position:relative;
+  left:3rem; 
+}
+
+/* social links */
+.hverf:hover{
+  color:rgb(51, 51, 244)! important;
+}
+.hvert:hover{
+  color:deepskyblue! important;
+  
+}
+.hveri:hover{
+  color:blueviolet! important;
+}
+.hverw:hover{
+  background-color: rgb(13, 96, 13)! important;
+}
+/* social links ends */
+
+/* footer ends */
